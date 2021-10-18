@@ -1,0 +1,109 @@
+svg{
+    height: 20px;
+}
+
+.dropdown-toggle::after{
+    visibility: hidden !important;
+}
+
+.paginate{
+    display: grid !important;
+    place-items: center !important;
+}
+
+.paginate div nav div:nth-child(1){
+    visibility: hidden !important;
+}
+
+  .btn{
+      padding: .6rem 1rem !important;
+  }
+
+  input[type="text"],
+  select,
+  input[type="number"],
+  input[type="email"],
+  input[type="password"]{
+    height: 40px !important;
+  }
+
+
+  .swal-button {
+    padding: 10px 23px;
+    border-radius: 2px;
+    background-color: #1f222c;
+    font-size: 12px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .swal-button:hover{
+    background-color: #0a0b0e !important;
+  }
+
+  #product_add  input[type="file"]{
+    visibility: hidden;
+  }
+
+  #product_add .images_label{
+      width: 100%;
+      display: grid;
+      place-items: center;
+  }
+
+
+  #userCreate label{
+      font-weight: bold;
+  }
+
+
+    #categoryForm label{
+        font-weight: bold;
+    }
+
+
+   #product_show .my-slider-progress {
+        background: #ccc;
+        margin: 5px 0;
+      }
+
+      #product_show  .my-slider-progress-bar {
+        background: rgb(53, 116, 18);
+        height: 2px;
+        transition: width 400ms ease;
+        width: 0;
+      }
+
+      #product_show .splide__slide{
+          height: 300px;
+      }
+
+      #product_show .splide__slide img{
+          width: 90%;
+          height: 100%;
+          margin: 5px auto;
+      }
+
+      #product_show .splide__pagination{
+        visibility: hidden;
+        }
+
+        .breadcrumb{
+            height: 50px !important;
+        }
+        .breadcrumb .breadcrumb-item{
+            margin: auto 10px;
+        }
+
+        .breadcrumb .breadcrumb-item a{
+            text-decoration: none;
+            color: #333;
+            transition: .3s;
+        }
+
+        .breadcrumb .breadcrumb-item a:hover{
+            color: rgb(28, 88, 251);
+        }
+
+        .breadcrumb .breadcrumb-item:last-child a{
+            color: rgb(28, 88, 251) !important;
+        }
